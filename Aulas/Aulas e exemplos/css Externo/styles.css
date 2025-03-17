@@ -1,0 +1,30 @@
+div{
+    background-color: aliceblue;
+    width: 98%;
+    height: auto;
+    border: 10px solid black;
+    text-align: center;
+}
+
+ul, a{
+    list-style: none;
+    text-decoration: underline;
+    color: black;
+    display: block;
+    padding: 0 6.9em;
+    line-height: 2.2em;
+}
+ul a:hover{
+    color: aliceblue;
+    background-color: black;
+}
+h1{
+    padding: 20px;
+    border-radius: 5px;
+    background-color: rgb(89, 177, 253);
+    box-shadow: 0px 5px 8px #000; /* da uma sombra para o box */
+     transition: transform 0.3s ease; /* deixa a animação delicada */
+}
+h1:hover{
+    transform: translateY(-5px); /* animação de bloco levantando */
+}
