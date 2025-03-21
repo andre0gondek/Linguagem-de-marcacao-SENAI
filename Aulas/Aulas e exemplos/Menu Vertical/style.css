@@ -1,0 +1,19 @@
+ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-align: center;
+}
+ul, a{
+width: 150px;
+height: 40px;
+display: block;
+color: rgb(0, 0, 0);
+text-decoration: none;
+line-height: 40px;
+background: #5ea9ff;
+}
+a:hover{
+    background-color: black;
+    color: aliceblue;
+}
